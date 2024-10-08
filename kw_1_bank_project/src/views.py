@@ -39,3 +39,4 @@ def main(input_date: Any, user_settings: Any, api_key_currency: Any, api_key_sto
         "stocks": stocks_cost,
     }
     return json.dumps(user_data, ensure_ascii=False, indent=4)
+
