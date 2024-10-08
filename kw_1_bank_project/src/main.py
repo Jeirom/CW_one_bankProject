@@ -38,3 +38,4 @@ spending_by_workday_result = spending_by_workday(df, "2020.05.20")
 print(spending_by_category_result)
 print(spending_by_weekday_result)
 print(spending_by_workday_result)
+
