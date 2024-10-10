@@ -14,3 +14,4 @@ def setup_logger(name: str, file_logs: str) -> Any:
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
     return logger
+

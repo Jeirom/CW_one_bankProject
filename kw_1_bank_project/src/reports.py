@@ -117,3 +117,4 @@ def spending_by_workday(transactions: pd.DataFrame, date: Any = None) -> str:
         print(f"Возникла ошибка {e}")
         logger.error(f"Возникла ошибка {e}")
         return ""
+

@@ -106,3 +106,4 @@ def find_person_to_person_transactions(transactions: List[Dict]) -> str:
         print(f"Возникла ошибка {e}")
         logger.error(f"Возникла ошибка {e}")
         return ""
+
